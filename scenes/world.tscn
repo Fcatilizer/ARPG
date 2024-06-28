@@ -867,6 +867,7 @@ sources/3 = SubResource("TileSetAtlasSource_33i6n")
 [node name="World" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
+y_sort_enabled = true
 tile_set = SubResource("TileSet_pel3v")
 format = 2
 layer_0/name = "ground"
@@ -874,7 +875,9 @@ layer_0/tile_data = PackedInt32Array(0, 917504, 12, 65536, 983040, 12, 131072, 7
 layer_1/name = "foilage"
 layer_1/tile_data = PackedInt32Array(458755, 1, 11, 262145, 1, 11, 196621, 1, 11, 65540, 1, 11, 196609, 3, 0, 393218, 3, 0, 131085, 3, 0, 458761, 3, 0, 8, 3, 0)
 layer_2/name = "trees"
+layer_2/y_sort_enabled = true
+layer_2/z_index = 1
 layer_2/tile_data = PackedInt32Array(393221, 1, 0, 196611, 1, 0, 65545, 1, 0, 524299, 1, 0)
 
-[node name="Player" parent="." instance=ExtResource("1_ocdpo")]
+[node name="Player" parent="TileMap" instance=ExtResource("1_ocdpo")]
 position = Vector2(85, 79)
