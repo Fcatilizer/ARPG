@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1719595968
+::res://::1719596248
 icon.svg::CompressedTexture2D::4258044535035683161::1719568629::1719568633::1::::<><>::
 ::res://art/::1719594127
 animated flower.png::CompressedTexture2D::8321580516797901101::1614403338::1719594127::1::::<><>::
 player_sprites.png::CompressedTexture2D::8051691532030052297::1719569437::1719569437::1::::<><>::
 TilesetFloor.png::CompressedTexture2D::4669389204223647834::1719593456::1719593463::1::::<><>::
 TilesetNature.png::CompressedTexture2D::5638374290330466814::1719593456::1719593463::1::::<><>::
-::res://player/::1719595913
-player.tscn::PackedScene::8980722491815835670::1719595913::0::1::::<><>::uid://dmykgh0e5lfq4::::res://art/player_sprites.png
-::res://scenes/::1719595913
-world.tscn::PackedScene::5068939299608424061::1719595913::0::1::::<><>::uid://b7r5fmvscjpbu::::res://art/TilesetFloor.png<>uid://d07lgmthq1k83::::res://player/player.tscn<>uid://cmljg3dwfkra1::::res://art/TilesetNature.png<>uid://dqtbhk5xhvm5j::::res://art/animated flower.png
+::res://player/::1719596218
+player.tscn::PackedScene::8980722491815835670::1719596218::0::1::::<><>::uid://dmykgh0e5lfq4::::res://art/player_sprites.png
+::res://scenes/::1719596218
+world.tscn::PackedScene::5068939299608424061::1719596218::0::1::::<><>::uid://b7r5fmvscjpbu::::res://art/TilesetFloor.png<>uid://d07lgmthq1k83::::res://player/player.tscn<>uid://cmljg3dwfkra1::::res://art/TilesetNature.png<>uid://dqtbhk5xhvm5j::::res://art/animated flower.png
