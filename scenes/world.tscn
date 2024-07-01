@@ -2795,3 +2795,6 @@ limit_smoothed = true
 position_smoothing_speed = 0.1
 script = ExtResource("5_qlw6h")
 tilemap = NodePath("../..")
+
+[node name="slime" parent="." instance=ExtResource("5_aoyqh")]
+position = Vector2(107, 163)

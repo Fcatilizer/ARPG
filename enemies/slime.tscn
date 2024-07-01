@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://c7ts04vuytfa0"]
+[gd_scene load_steps=21 format=3 uid="uid://c7ts04vuytfa0"]
 
 [ext_resource type="Texture2D" uid="uid://dvlcstnunpckp" path="res://art/Slime.png" id="1_83ac3"]
 [ext_resource type="Script" path="res://enemies/slime.gd" id="1_xvbfa"]
@@ -138,10 +138,20 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_u5x57"]
+radius = 4.0
+height = 16.0
+
 [node name="slime" type="CharacterBody2D"]
+z_index = 1
 script = ExtResource("1_xvbfa")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -7)
 sprite_frames = SubResource("SpriteFrames_76jm8")
 animation = &"walkRight"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -4)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_u5x57")
