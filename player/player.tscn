@@ -5,9 +5,14 @@
 [sub_resource type="GDScript" id="GDScript_7ykb8"]
 script/source = "extends CharacterBody2D
 
+class_name Player
+
 @export var speed: int =  85
 @onready var animations = $AnimationPlayer
+@onready var hurtColor = $Sprite2D/ColorRect
 
+@export var maxHealth = 3
+@onready var currentHealth: int = maxHealth
 
 func handleInput():
 	var moveDirection = Input.get_vector(\"ui_left\", \"ui_right\",\"ui_up\", \"ui_down\")
@@ -40,7 +45,11 @@ func _physics_process(delta):
 
 func _on_hurt_box_area_entered(area):
 	if area.name == \"hitBox\":
-		print_debug(area.get_parent().name)
+		currentHealth -= 1
+		if currentHealth < 0:
+			currentHealth = maxHealth
+			
+		print_debug(currentHealth)
 "
 
 [sub_resource type="Animation" id="Animation_rtkdi"]
