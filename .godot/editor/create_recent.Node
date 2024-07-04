@@ -1,8 +1,12 @@
+CanvasLayer
+Sprite2D
+Panel
+HBoxContainer
+AnimationPlayer
 CollisionShape2D
+Area2D
 Marker2D
 AnimatedSprite2D
-Sprite2D
 CharacterBody2D
 Camera2D
 TileMap
-AnimationPlayer

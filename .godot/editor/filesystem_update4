@@ -1,3 +1,5 @@
+res://player/player.tscn
 res://scenes/world.tscn
 res://enemies/slime.tscn
-res://player/player.tscn
+res://gui/hearts_container.tscn
+res://gui/heart_gui.tscn
