@@ -2,5 +2,8 @@
 #### Currently learning and devloping
 
 ## Screenshot
-![GoDot Screenshot](/Screenshot/image.png)
-![Game Screenshot](/Screenshot/image2.png)  
+![GoDot Screenshot](/screenshot/image.png)
+![Game Screenshot](/screenshot/image2.png)  
+
+
+<!-- ![](/path/to/image.png) -->
