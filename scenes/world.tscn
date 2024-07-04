@@ -2796,5 +2796,30 @@ position_smoothing_speed = 0.1
 script = ExtResource("5_qlw6h")
 tilemap = NodePath("../..")
 
-[node name="slime" parent="." instance=ExtResource("5_aoyqh")]
-position = Vector2(107, 163)
+[node name="slime2" parent="TileMap" node_paths=PackedStringArray("endPoint") instance=ExtResource("5_aoyqh")]
+position = Vector2(137, 45)
+endPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/slime2"]
+position = Vector2(65, -2)
+
+[node name="slime3" parent="TileMap" node_paths=PackedStringArray("endPoint") instance=ExtResource("5_aoyqh")]
+position = Vector2(281, 101)
+endPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/slime3"]
+position = Vector2(2, 64)
+
+[node name="slime4" parent="TileMap" node_paths=PackedStringArray("endPoint") instance=ExtResource("5_aoyqh")]
+position = Vector2(243, 294)
+endPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/slime4"]
+position = Vector2(73, -4)
+
+[node name="slime5" parent="TileMap" node_paths=PackedStringArray("endPoint") instance=ExtResource("5_aoyqh")]
+position = Vector2(468, 183)
+endPoint = NodePath("Marker2D")
+
+[node name="Marker2D" type="Marker2D" parent="TileMap/slime5"]
+position = Vector2(66, -5)
